@@ -67,16 +67,16 @@ h1,
   margin-top: 14px;   
   display: flex;
   flex-direction: row;
-  gap: 140px;
+  gap: 2%;
 }
 
 
 .left{
-  width: 60vw;
+  width: 55vw;
 }
 
 .right{
-  width: 40vw;
+  width: 22vw;
 }
 
 h1 {
@@ -104,18 +104,19 @@ h1 {
   border-radius: 5px;
   background: #1e4681;
   color: white;
-  margin: 70px auto 20px;
-  padding: 18px 26px 20px 30px ;
+  margin: 70px 30% 20px 26% ;
+  padding: 18px 18px 22px 26px ;
 }
 
 .text3 {
   font-size: 25px;
   font-weight: 400;
   line-height: 130%;
+  padding-left: 0px;
 }
 
 .author {
-  margin-top: 5px;
+  margin-top: 6px;
   font-size: 20px;
   text-align: end;
   font-weight: 400;
