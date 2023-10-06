@@ -36,6 +36,17 @@ font-family: 'Roboto Slab', serif; */
     gap: 8px;
     display: flex;
     align-items: flex-end;
+   
+   transition: 300ms;
+  }
+
+  .inf:hover{
+    transform: scale(1.04);
+   transition: 300ms;
+  }
+
+  .inf:hover{
+    transform: scale(1.04);
   }
 
   .inf1 {
@@ -106,6 +117,12 @@ font-family: 'Roboto Slab', serif; */
     color: white;
     margin: 70px 30% 20px 26%;
     padding: 18px 18px 22px 26px;
+    box-shadow: 6px 6px 8px 0px black;
+    transition: 300ms;
+  }
+
+  .bottom:hover{
+    transform: scale(1.04);
   }
 
   .text3 {
@@ -151,7 +168,13 @@ font-family: 'Roboto Slab', serif; */
     gap: 8px;
     display: flex;
     align-items: flex-end;
+    transition: 300ms;
   }
+
+  .inf:hover{
+    transform: scale(1.04);
+  }
+  
 
   .inf1 {
     margin-left: 22px;
@@ -223,6 +246,12 @@ font-family: 'Roboto Slab', serif; */
     color: white;
     margin: 70px 30% 20px 24%;
     padding: 18px 16px 22px 26px;
+    box-shadow: 6px 6px 8px 0px black;
+    transition: 300ms;
+  }
+
+  .bottom:hover{
+    transform: scale(1.04);
   }
 
   .text3 {
@@ -268,7 +297,13 @@ font-family: 'Roboto Slab', serif; */
     gap: 6px;
     display: flex;
     align-items: flex-end;
+    transition: 300ms;
   }
+
+  .inf:hover{
+    transform: scale(1.04);
+  }
+  
 
   .inf1 {
     margin-left: 4vw;
@@ -335,8 +370,14 @@ font-family: 'Roboto Slab', serif; */
     border-radius: 3px;
     background: #1e4681;
     color: white;
-    margin: 33px 38% 2000px 01px;
+    margin: 33px 38% 20px 01px;
     padding: 10px 8px 22px 14px;
+    box-shadow: 6px 6px 8px 0px black;
+    transition: 300ms;
+  }
+
+  .bottom:hover{
+    transform: scale(1.04);
   }
 
   .text3 {
