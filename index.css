@@ -1,0 +1,285 @@
+body{
+    width: 100vw;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.title-1{
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 2rem;
+font-size: 3.6vw;
+font-style: normal;
+font-weight: 700;
+width: 30vw;
+line-height: 101.385%; /* 3.48513rem */
+}
+.card--1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.card--1-1{
+    color: #000;
+    font-family: Roboto;
+font-size: 1.70vw;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 2.25rem */
+width: 41.375rem;
+flex-shrink: 0;
+}
+.photo1{
+    width: 21rem;
+height: 20rem;
+flex-shrink: 0;
+
+}
+.card--2{
+    display: flex;
+    gap: 9rem;
+}
+.photo2{
+    width: 14rem;
+height: 13rem;
+flex-shrink: 0;
+}
+.card--2-2{
+    display: flex;
+    gap: 3rem;
+    width: 75%;
+	margin-bottom: 20px;
+	justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.card--2-2-1 p:first-child{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 700;
+
+}
+.card--2-2-1 p:nth-child(2){
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -1.2rem;
+}
+
+
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .title-1{
+        color: #000;
+        font-family: Roboto Slab;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 101.385%; /* 2.02769rem */
+        margin-bottom: 1rem;
+    }
+    .card--1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .card--1-1{
+        color: #000;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 1.3125rem */
+        width: 27rem;
+    }
+    .photo1{
+        width: 15rem;
+        height: 14rem;
+        flex-shrink: 0;
+    
+    }
+    .card--2{
+        display: flex;
+        gap: 5rem;
+    }
+    .photo2{
+        width: 8.39794rem;
+        height: 7.34819rem;
+        flex-shrink: 0;
+    }
+    .card--2-2{
+        display: flex;
+        gap: 5rem;
+    }
+    .card--2-2-1 p:first-child{
+        color: #000;
+        font-family: Roboto;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 700;
+    
+    }
+    .card--2-2-1 p:nth-child(2){
+        color: #000;
+        font-family: Roboto;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+}
+
+@media screen and (min-width:321px) and (max-width:768px){
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .title-1{
+        color: #000;
+        font-family: Roboto Slab;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .card--1{
+        display: flex;
+        justify-content:flex-start;
+    
+        margin-bottom: 2rem;
+
+    }
+    .card--1-1{
+        color: #000;
+        font-family: Roboto;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 1.3125rem */
+        width: 27rem;
+    }
+    .photo1{
+        width: 9rem;
+        height: 8rem;
+        flex-shrink: 0;
+        margin:auto;
+    
+    }
+    .card--2{
+        display: flex;
+        gap: 5rem;
+    }
+    .photo2{
+        width: 6rem;
+        height: 5.5rem;
+        flex-shrink: 0;
+    }
+    .card--2-2{
+        display: flex;
+        gap: 5rem;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .card--2-2-1 p:first-child{
+        color: #000;
+        font-family: Roboto;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 700;
+    
+    }
+    .card--2-2-1 p:nth-child(2){
+        color: #000;
+        font-family: Roboto;
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+}
+@media screen and (max-width:320px){
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .title-1{
+        color: #000;
+        font-family: Roboto Slab;
+        font-size: 1.625rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 101.385%; /* 1.6475rem */
+    }
+    .card--1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card--1-1{
+        color: #000;
+        font-family: Roboto;
+        font-size: 5rem;
+        font-style: normal;
+        font-weight: 400;
+        width: 18rem;
+        line-height: 150%; /* 1.125rem */
+    }
+    .photo1{
+        width: 9.14469rem;
+        height: 9.17381rem;
+        flex-shrink: 0;
+        align-items: center;
+    
+    }
+    .card--2{
+        display: flex;
+        gap: 2rem;
+    }
+    .photo2{
+        display: none;
+    }
+    .card--2-2{
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .card--2-2-1 p:first-child{
+        color: #000;
+        font-family: Roboto;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .card--2-2-1 p:nth-child(2){
+        color: #000;
+        font-family: Roboto;
+        font-size: 0.625rem;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: -0.5rem;
+    }
+    
+}
+/*@media screen and (max-width:320px){
+.card--1-1{
+    width: 16rem;
+}
+
+}*/
