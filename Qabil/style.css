@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto+Slab:wght@600&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.course_about {
+  background-color: #9dc9c8;
+  padding: 100px 0;
+}
+.money {
+  font-size: 50px;
+  font-weight: 100;
+}
+.course_content-secondary {
+  margin-top: 5px;
+}
+.course_content {
+  display: flex;
+  gap: 50px;
+}
+footer {
+  background-color: black;
+  padding: 60px 0;
+}
+.media {
+  margin-right: 7px;
+  text-decoration: none;
+}
+.medias {
+  margin-top: 15px;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  align-items: flex-end;
+}
+.copywrigth p {
+  color: white;
+}
+.copywrigth {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .inner {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+h2 {
+  font-size: 40px;
+  font-family: Roboto slab;
+}
